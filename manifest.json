@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "cf stats",
+  "version": "1.0.0",
+  "permissions": [],
+  "content_scripts": [
+    {
+      "matches": ["https://codeforces.com/profile/*"],
+      "js": ["cf_stats.js"]
+    }
+  ]
+}
