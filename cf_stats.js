@@ -100,7 +100,7 @@ const injectElement = () => {
   const node = document.createElement("div");
   node.textContent = "Mazza a gya re baba";
   node.id = "cf_stats_container_0xv1jrs";
-  finalFunction("raushnn");
+  finalFunction($user_handle);
   const pageContent = document.getElementById("pageContent");
   pageContent.appendChild(node);
 };
